@@ -4,7 +4,7 @@ const { SpotifyPlugin } = require('@distube/spotify')
 const client = new Discord.Client({ 
     intents: [
         "Guilds",
-        "GuildMessages",
+        "GuildMessages",             
         "GuildVoiceStates",
         "MessageContent",
     ]
